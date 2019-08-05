@@ -25,7 +25,7 @@
  - 과정
   - chocolately를 사용해서 설치 -> cmd 창에서 간편하게 사용할 수 있지만, 어떤건지는 자세하게 모른다.
   - go langauge 설치
-   - test 소스(헬로 월드)를 만들고 go build 로 build 해서 실행시켜보자
+  * test 소스(헬로 월드)를 만들고 go build 로 build 해서 실행시켜보자
 
 ## 3. hugo 를 사용해서 블로그를 만들어보자!
 ### 3-1. github 저장소를 두개 생성한다.
