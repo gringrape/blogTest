@@ -1,6 +1,6 @@
 ---
 title: "블로그 시작"
-date: 
+date: 2017-10-20 08:26:28 -0400
 categories: jekyll update
 ---
 
