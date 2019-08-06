@@ -54,4 +54,5 @@
  ## 추가 기능들
  ### 1. 작성중인 항목 감추기
  - .md 작성시 hidden = true 추가.
+ - theme 폴더의 list.html , index.html 에서 글을 반복하는 부분에 
 
