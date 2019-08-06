@@ -30,18 +30,20 @@
  *
  * Update the foundational and global aspects of the page.
  */
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: ¡®Noto Sans KR¡¯ ;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -79,8 +81,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
 }
 
 /* Sidebar nav */
