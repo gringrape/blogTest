@@ -6,10 +6,22 @@
     <description>Recent content in Spring Studies on gringrape&#39;s Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 06 Aug 2019 17:51:41 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Aug 2019 22:12:09 +0900</lastBuildDate>
     
 	<atom:link href="/spring-study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>토비의 스프링 스터디 1주차 내용 정리</title>
+      <link>/spring-study/2019-08-06-%ED%86%A0%EB%B9%84%EC%9D%98-%EC%8A%A4%ED%94%84%EB%A7%81-1%EC%A3%BC%EC%B0%A8/</link>
+      <pubDate>Tue, 06 Aug 2019 22:12:09 +0900</pubDate>
+      
+      <guid>/spring-study/2019-08-06-%ED%86%A0%EB%B9%84%EC%9D%98-%EC%8A%A4%ED%94%84%EB%A7%81-1%EC%A3%BC%EC%B0%A8/</guid>
+      <description>7월 20일 진행한 1차 모임 전후에 대한 기록.
+독서 전략 높은 추상화 단계에서 내용 파악 -&amp;gt; 추상화 단계를 낮추어서 세부 내용 파악
+아래는 구체적인 행동 순서.
+ 목차를 통한 내용 파악 주요 용어 골라내기, 의미파악 1차 내용 정리 세부적인 의미파악 반복적인 스키밍을 통한 의미정착 2차 세부 내용 정리  세부 내용 정리 template method pattern 을 통한 기능의 확장  변하지 않는 기능을 superclass 에 정의 (template method) 자주 변하는 기능(확장)을 subclass 에서 구현 hook method 와 abstract method  hook method : 기본적인 내용을 구현하거나 비워놓았다가 선택적 으로 override 해주는 것.</description>
+    </item>
     
     <item>
       <title>Test</title>

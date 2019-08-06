@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.56.3" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>토비의 스프링 스터디 1주차 내용 정리 &middot; gringrape&#39;s Devlog</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="/"><h1>gringrape&#39;s Devlog</h1></a>
+      <p class="lead">
+         늦깎이 개발자 성장일기 
+      </p>
+    </div>
+    <nav>
+      <ul class="unorderedSidebar">
+        
+        <li><a href="/algorithm/">Algorithms</a></li>  
+        
+        <li><a href="/general/">Generals</a></li>  
+        
+        <li><a href="/spring-study/">Spring Studies</a></li>  
+        
+      </ul>
+      <p></p>
+    </nav>
+    <p>&copy; 2019. All rights reserved. </p>
+  </div>
+</aside>
+
+
+    <main class="content container">
+    <div class="post">
+  <h1>토비의 스프링 스터디 1주차 내용 정리</h1>
+  <time datetime=2019-08-06T22:12:09&#43;0900 class="post-date">Tue, Aug 6, 2019</time>
+  
+
+<p>7월 20일 진행한 1차 모임 전후에 대한 기록.</p>
+
+<h1 id="독서-전략">독서 전략</h1>
+
+<p>높은 추상화 단계에서 내용 파악 -&gt; 추상화 단계를 낮추어서 세부 내용 파악</p>
+
+<p>아래는 구체적인 행동 순서.</p>
+
+<ul>
+<li>목차를 통한 내용 파악</li>
+<li>주요 용어 골라내기, 의미파악</li>
+<li>1차 내용 정리</li>
+<li>세부적인 의미파악</li>
+<li>반복적인 스키밍을 통한 의미정착</li>
+<li>2차 세부 내용 정리</li>
+</ul>
+
+<h2 id="세부-내용-정리">세부 내용 정리</h2>
+
+<h3 id="template-method-pattern-을-통한-기능의-확장">template method pattern 을 통한 기능의 확장</h3>
+
+<ul>
+<li>변하지 않는 기능을 superclass 에 정의 (template method)</li>
+<li>자주 변하는 기능(확장)을 subclass 에서 구현</li>
+<li>hook method 와 abstract method
+
+<ul>
+<li>hook method : 기본적인 내용을 구현하거나 비워놓았다가 <strong>선택적</strong> 으로 override 해주는 것.</li>
+<li>abstract method : 반드시 subclass에서 구현되어야함.</li>
+</ul></li>
+</ul>
+
+<h3 id="strategy-pattern-을-통한-기능의-확장">strategy pattern 을 통한 기능의 확장</h3>
+
+<ul>
+<li>하나의 클래스를 context + strategy로 보고 클래스를 분리.</li>
+<li>context 에서 strategy의 interface를  의존.</li>
+<li>사용 책임과 생성 책임의 분리
+
+<ul>
+<li>strategy 객체를 생성할 책임을 factory 라는 객체로 분리.</li>
+<li>런타임에서 context에 동적으로 strategy를 만들어 준다.</li>
+</ul></li>
+</ul>
+
+<h3 id="factory-와-제어의-역전">factory 와 제어의 역전</h3>
+
+<ul>
+<li>객체가 스스로 어떤 다른 객체에게 의존할지 선택하지않고 의존하는 객체를 생성하지도 않는다.</li>
+<li>객체는 모든 제어 권한을 다른 대상에게 위임한다.</li>
+<li>스프링에서 스프링 컨테이너는 제어권한을 위임받아 <strong>설정정보</strong> 를 참조하여 객체를 생성하고 주입한다.</li>
+</ul>
+
+</div>
+
+<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </main>
+
+    
+  </body>
+</html>
