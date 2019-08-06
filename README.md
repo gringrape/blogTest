@@ -37,6 +37,4 @@
  - 소스 파일의 local 저장소의 remote 저장소로 github 저장소(blog)를 등록
   $ git remote add origin git@github.com:gringrape/blog.git
  - 렌더링 된 결과물의 local 저장소를 submodule 로 설정해서 remote 저장소와 연동
-  
- 
-    
+  $ git submodule add -b masater git@github.com:integerous/integerous.github.io.git public
