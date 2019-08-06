@@ -255,3 +255,8 @@ a.sidebar-nav-item:focus {
 .General {
   background-color: #8f5536
 }
+
+/* sidebar unordered list without bullets */
+.unorderedSidebar {
+  list-style-type: none;
+}
