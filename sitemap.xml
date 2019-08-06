@@ -3,13 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/spring-study/</loc>
-    <lastmod>2019-08-06T22:12:09+09:00</lastmod>
+    <loc>/general/2019-08-06-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EA%B8%80%EC%9D%84-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EC%88%9C%EC%84%9C/</loc>
+    <lastmod>2019-08-06T22:28:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/general/</loc>
+    <lastmod>2019-08-06T22:28:30+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2019-08-06T22:28:30+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/spring-study/</loc>
     <lastmod>2019-08-06T22:12:09+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -33,12 +44,6 @@
   <url>
     <loc>/algorithm/test/</loc>
     <lastmod>2019-08-06T17:49:44+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/general/</loc>
-    <lastmod>2019-08-06T10:32:33+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.56.3" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>2019 08 06 블로그에 글을 작성하는 순서 &middot; gringrape&#39;s Devlog</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="/"><h1>gringrape&#39;s Devlog</h1></a>
+      <p class="lead">
+         늦깎이 개발자 성장일기 
+      </p>
+    </div>
+    <nav>
+      <ul class="unorderedSidebar">
+        
+        <li><a href="/algorithm/">Algorithms</a></li>  
+        
+        <li><a href="/general/">Generals</a></li>  
+        
+        <li><a href="/spring-study/">Spring Studies</a></li>  
+        
+      </ul>
+      <p></p>
+    </nav>
+    <p>&copy; 2019. All rights reserved. </p>
+  </div>
+</aside>
+
+
+    <main class="content container">
+    <div class="post">
+  <h1>2019 08 06 블로그에 글을 작성하는 순서</h1>
+  <time datetime=2019-08-06T22:28:30&#43;0900 class="post-date">Tue, Aug 6, 2019</time>
+  
+
+<h2 id="hugo-theme-git-을-이용해서-블로그를-할때-글-올리는-순서-windows">hugo theme + git 을 이용해서 블로그를 할때 글 올리는 순서 (windows)</h2>
+
+<ol>
+<li>project root 에서 cmd를 실행한다.</li>
+<li>hugo new {경로}/{filename}.md 로 글을 생성한다.</li>
+<li>markdown editor로 글을 작성한다.</li>
+<li>hugo -t {theme name} 으로 테마를 적용하여 렌더링된 소스코드를 생성한다.</li>
+<li>git add .</li>
+<li>git commit -m {message}</li>
+<li>git pull origin</li>
+<li>git push origin</li>
+</ol>
+
+<h2 id="글-하나-쓰기가-이렇게-번거-롭다니">글 하나 쓰기가 이렇게 번거 롭다니..</h2>
+
+<p>매크로 처럼 한번 입력하면 자동으로 주루룩 해주는 도구가 필요하다.</p>
+
+<h2 id="shell-script를-통한-자동화">shell script를 통한 자동화</h2>
+
+<p>어떻게 하는 걸까?</p>
+
+</div>
+
+<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </main>
+
+    
+  </body>
+</html>
