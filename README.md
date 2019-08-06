@@ -32,8 +32,11 @@
  - 소스 파일이 담길 저장소를 생성
  - 렌더링 된 결과물이 담길 페이지를 생성
  
-### 3-2. hugo 프로젝트 생성, 테마 선택
- - hugo 프로젝트를 로컬에 생성한다.
- - 테마를 생성한다.
- - 시범적으로 글을 작성한 후에 확인해본다.
+### 3-2. local 저장소 생성, github 저장소와 연동
+ - 소스 파일의 local 저장소를 hugo 명령을 통해 생성.
+ - 소스 파일의 local 저장소의 remote 저장소로 github 저장소(blog)를 등록
+  $ git remote add origin git@github.com:gringrape/blog.git
+ - 렌더링 된 결과물의 local 저장소를 submodule 로 설정해서 remote 저장소와 연동
+  
+ 
     
