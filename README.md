@@ -50,4 +50,8 @@
 - 글이 분류에 따라 표시되도록 하기
  - https://www.youtube.com/watch?v=E6bhmixcR5k&t=1089s -> website with multiple sections 참조
  - {project root}\config.toml 에 sectionPagesMenu = "mainmenu" 추가
+ 
+ ## 추가 기능들
+ ### 1. 작성중인 항목 감추기
+ - .md 작성시 hidden = true 추가.
 
