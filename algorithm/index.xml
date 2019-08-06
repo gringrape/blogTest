@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on gringrape&#39;s Devlog</title>
+    <link>/algorithm/</link>
+    <description>Recent content in Algorithms on gringrape&#39;s Devlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Tue, 06 Aug 2019 17:49:44 +0900</lastBuildDate>
+    
+	<atom:link href="/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>/algorithm/test/</link>
+      <pubDate>Tue, 06 Aug 2019 17:49:44 +0900</pubDate>
+      
+      <guid>/algorithm/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

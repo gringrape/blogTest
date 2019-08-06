@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring Studies on gringrape&#39;s Devlog</title>
+    <link>/spring-study/</link>
+    <description>Recent content in Spring Studies on gringrape&#39;s Devlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Tue, 06 Aug 2019 17:51:41 +0900</lastBuildDate>
+    
+	<atom:link href="/spring-study/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>/spring-study/test/</link>
+      <pubDate>Tue, 06 Aug 2019 17:51:41 +0900</pubDate>
+      
+      <guid>/spring-study/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
