@@ -46,6 +46,7 @@
  - {project root}\config.toml 수정
  - toml syntax 공부
  - study와 algorithm 항목 만들어서 test 성공
+
 ### 4-2. 카테고리에 따라 글 분류
 - 글이 분류에 따라 표시되도록 하기
  - https://www.youtube.com/watch?v=E6bhmixcR5k&t=1089s -> website with multiple sections 참조
@@ -54,5 +55,9 @@
  ## 추가 기능들
  ### 1. 작성중인 항목 감추기
  - .md 작성시 hidden = true 추가.
- - theme 폴더의 list.html , index.html 에서 글을 반복하는 부분에 
+ - theme 폴더의 list.html , index.html 에서 글을 반복하는 부분 수정
+ 
+ ## 기타 블로그 작업 시 새롭게 알게 된 사실들 정리
+ ### 1. 마크다운 활용
+ 본문 뒤에 '#' 을 활용하는 제목을 붙일 때에는 라인 하나를 띄고 해야함.
 
